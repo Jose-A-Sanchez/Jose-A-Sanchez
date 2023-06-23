@@ -652,12 +652,12 @@ Body {
   }
 
   Header {
-    background-size: auto;
+    background-size: 50vw;
   }
 
   .Navbar {
-    position: fixed;
-    left: 45%;
+    position: absolute;
+    margin-left: -50vw;
   }
 
   .About-Content .Left-Content {
@@ -685,15 +685,20 @@ Body {
     margin-top: 3.2rem;
   }
 
+  .Portfolio {
+    width: 100vw;
+  }
+
   .Proj-1 {
     display: Flex;
     justify-content: Center;
     flex-direction: Column;
+    margin-left: 5vw;
   }
 
   .Proj-1 Img {
-    height: 230px;
-    width: 290px;
+    height: 130px;
+    width: 190px;
     margin-bottom: 0.5rem;
   }
 
@@ -701,12 +706,38 @@ Body {
     display: Flex;
     justify-content: Center;
     flex-direction: Column;
+    margin-left: 5vw;
   }
 
   .Proj-2 Img {
-    height: 250px;
-    width: 290px;
+    height: 130px;
+    width: 190px;
     margin-bottom: 0.5rem;
+  }
+
+  .Proj-3 {
+    position: absolute;
+    justify-content: Center;
+    flex-direction: Column;
+    margin-top: 38vh;
+    margin-left: -158vw;
+  }
+
+  .Proj-3 Img {
+    position: absolute;
+    height: 130px;
+    width: 190px;
+    margin-bottom: 0.5rem;
+    margin-top: -50vh;
+    margin-left: 75%;
+  }
+
+  .More-Work {
+    display: flex;
+    text-align: Center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35vh;
   }
 
   .Work-Arrow-2 A {
@@ -738,7 +769,7 @@ Body {
 
   .Navbar {
     position: fixed;
-    left: 44%;
+    align-items: center;
   }
 
   .About-Content .Left-Content {
