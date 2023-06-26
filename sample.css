@@ -646,7 +646,8 @@ Body {
 
 /* ////......Media Query......//// */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px),
+  screen and (max-height: 700px) {
   Html {
     font-size: 60%;
   }
