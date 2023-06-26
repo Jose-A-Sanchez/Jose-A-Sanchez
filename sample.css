@@ -646,6 +646,125 @@ Body {
 
 /* ////......Media Query......//// */
 
+@media (min-width: 320px) and (max-width: 480px) {
+  Html {
+    font-size: 60%;
+  }
+
+  Header {
+    background-size: 50vw;
+  }
+
+  .Header {
+    background-size: cover;
+  }
+
+  .Navbar {
+    position: absolute;
+    margin-left: -50vw;
+  }
+
+  .About-Content .Left-Content {
+    flex-basis: 100%;
+    text-align: Center;
+  }
+
+  .About-Content .Right-Content {
+    flex-basis: 100%;
+  }
+
+  .Skills {
+    width: 100%;
+  }
+
+  .Skills-Bar .Bar .Progress-Line {
+    width: 100%;
+  }
+
+  .Work-Arrow {
+    display: none;
+  }
+
+  .Right-Content H1 {
+    margin-top: 3.2rem;
+  }
+
+  .Portfolio {
+    width: 100vw;
+  }
+
+  .Proj-1 {
+    display: Flex;
+    justify-content: Center;
+    flex-direction: Column;
+    margin-left: 5vw;
+  }
+
+  .Proj-1 Img {
+    height: 130px;
+    width: 190px;
+    margin-bottom: 0.5rem;
+  }
+
+  .Proj-2 {
+    display: Flex;
+    justify-content: Center;
+    flex-direction: Column;
+    margin-left: 5vw;
+  }
+
+  .Proj-2 Img {
+    height: 130px;
+    width: 190px;
+    margin-bottom: 0.5rem;
+  }
+
+  .Proj-3 {
+    position: absolute;
+    justify-content: Center;
+    flex-direction: Column;
+    margin-top: 38vh;
+    margin-left: -158vw;
+  }
+
+  .Proj-3 Img {
+    position: absolute;
+    height: 130px;
+    width: 190px;
+    margin-bottom: 0.5rem;
+    margin-top: -50vh;
+    margin-left: 75%;
+  }
+
+  .More-Work {
+    display: flex;
+    text-align: Center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35vh;
+  }
+
+  .Work-Arrow-2 A {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #283e2f;
+    display: Block;
+    text-align: Center;
+  }
+
+  .Work-Arrow-2 A:hover {
+    text-decoration: underline;
+    color: ghostwhite;
+  }
+
+  .Contact-Content {
+    width: 100%;
+  }
+  .Contact {
+    background-size: cover;
+  }
+}
+
 @media (max-width: 500px) {
   Html {
     font-size: 60%;
@@ -759,6 +878,9 @@ Body {
 
   .Contact-Content {
     width: 100%;
+  }
+  .Contact {
+    background-size: cover;
   }
 }
 
