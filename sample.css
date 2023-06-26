@@ -655,6 +655,10 @@ Body {
     background-size: 50vw;
   }
 
+  .Header {
+    background-size: cover;
+  }
+
   .Navbar {
     position: absolute;
     margin-left: -50vw;
@@ -767,9 +771,15 @@ Body {
     background-size: auto;
   }
 
+  .Header {
+    background-size: cover;
+  }
+
   .Navbar {
-    position: fixed;
+    position: absolute;
     align-items: center;
+    margin-left: -45vw;
+    text-align: center;
   }
 
   .About-Content .Left-Content {
@@ -801,11 +811,13 @@ Body {
     display: Flex;
     justify-content: Center;
     flex-direction: Column;
+    margin-left: 0vw;
+    margin: 2vh;
   }
 
   .Proj-1 Img {
-    height: 240px;
-    width: 290px;
+    height: 140px;
+    width: 190px;
     margin-bottom: 0.5rem;
   }
 
@@ -813,12 +825,39 @@ Body {
     display: Flex;
     justify-content: Center;
     flex-direction: Column;
+    margin-left: 0vw;
   }
 
   .Proj-2 Img {
-    height: 240px;
-    width: 290px;
+    height: 140px;
+    width: 190px;
     margin-bottom: 0.5rem;
+  }
+
+  .Proj-3 {
+    position: absolute;
+    justify-content: Center;
+    flex-direction: Column;
+    margin-top: 38vh;
+    margin-left: -90vw;
+  }
+
+  .Proj-3 Img {
+    position: absolute;
+    height: 130px;
+    width: 190px;
+    margin-bottom: 0.5rem;
+    margin-top: -50vh;
+    margin-left: 115vw;
+  }
+
+  .More-Work {
+    display: flex;
+    text-align: Center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 33vh;
+    margin-left: 0vw;
   }
 
   .Work-Arrow-2 A {
@@ -836,6 +875,10 @@ Body {
   .Contact-Content {
     width: 100%;
   }
+
+  .Contact {
+    background-size: cover;
+  }
 }
 
 @media (min-width: 769px) And (max-width: 1200px) {
@@ -846,10 +889,13 @@ Body {
   Header {
     background-size: auto;
   }
+  .Header {
+    background-size: cover;
+  }
 
   .Navbar {
-    position: fixed;
-    left: 100%;
+    position: absolute;
+    left: 34vw;
   }
 
   .About-Content .Left-Content {
@@ -889,10 +935,68 @@ Body {
     color: #25b79f;
     display: Block;
     text-align: Center;
+    margin-top: -10vh;
+  }
+
+  .Proj-1 {
+    display: Flex;
+    justify-content: Center;
+    flex-direction: Column;
+    margin-left: 0vw;
+    margin: 2vh;
+  }
+
+  .Proj-1 Img {
+    height: 140px;
+    width: 190px;
+    margin-bottom: 0.5rem;
+  }
+
+  .Proj-2 {
+    display: Flex;
+    justify-content: Center;
+    flex-direction: Column;
+    margin-left: 0vw;
+  }
+
+  .Proj-2 Img {
+    height: 140px;
+    width: 190px;
+    margin-bottom: 0.5rem;
+  }
+
+  .Proj-3 {
+    position: absolute;
+    justify-content: Center;
+    flex-direction: Column;
+    margin-top: 38vh;
+    margin-left: -77vw;
+  }
+
+  .Proj-3 Img {
+    position: absolute;
+    height: 130px;
+    width: 190px;
+    margin-bottom: 0.5rem;
+    margin-top: -50vh;
+    margin-left: 108vw;
+  }
+
+  .More-Work {
+    display: flex;
+    text-align: Center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 33vh;
+    margin-left: 0vw;
   }
 
   .Contact-Content {
     width: 100%;
+  }
+
+  .Contact {
+    background-size: cover;
   }
 }
 
