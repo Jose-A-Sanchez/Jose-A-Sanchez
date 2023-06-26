@@ -662,7 +662,7 @@ Body {
 
   .Navbar {
     position: absolute;
-    margin-left: -50vw;
+    margin-left: -55vw;
   }
 
   .About-Content .Left-Content {
@@ -725,7 +725,7 @@ Body {
     justify-content: Center;
     flex-direction: Column;
     margin-top: 38vh;
-    margin-left: -158vw;
+    margin-left: -180vw;
   }
 
   .Proj-3 Img {
@@ -748,9 +748,10 @@ Body {
   .Work-Arrow-2 A {
     font-size: 1.3rem;
     text-decoration: none;
-    color: #283e2f;
+    color: #02aab0;
     display: Block;
     text-align: Center;
+    margin-top: 35vh;
   }
 
   .Work-Arrow-2 A:hover {
@@ -867,7 +868,7 @@ Body {
   .Work-Arrow-2 A {
     font-size: 1.3rem;
     text-decoration: none;
-    color: #283e2f;
+    color: #02aab0;
     display: Block;
     text-align: Center;
   }
